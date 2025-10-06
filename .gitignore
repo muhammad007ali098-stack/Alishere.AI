@@ -1,0 +1,11 @@
+
+venv/
+__pycache__/
+*.pyc
+backend/ai_assistant.db
+backend/uploaded/
+backend/faiss_index.bin
+backend/faiss_meta.json
+.env
+*.env
+*.zip
