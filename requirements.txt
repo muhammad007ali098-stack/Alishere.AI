@@ -1,0 +1,10 @@
+flask
+openai
+PyPDF2
+sentence-transformers
+faiss-cpu
+sqlalchemy
+python-dotenv
+flask-limiter
+flask-cors
+tqdm
