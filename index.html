@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Ali'shere.AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header><h1>Ali'shere.AI</h1><p>Personal AI Assistant — upload files and ask questions.</p></header>
+    <main class="card">
+      <section>
+        <form id="uploadForm" onsubmit="uploadFile(event)">
+          <input type="file" id="fileInput" accept=".txt,.pdf" />
+          <button type="submit">Upload & Index</button>
+        </form>
+        <div id="uploadStatus"></div>
+      </section>
+      <section id="chatSection">
+        <div id="chat" aria-live="polite"></div>
+        <form id="msgForm" onsubmit="send(event)">
+          <input id="msg" placeholder="Ask something..." autocomplete="off"/>
+          <button type="submit">Send</button>
+        </form>
+        <div class="controls"><button onclick="loadHistory()">Load History</button><button onclick="resetConv()">Reset</button></div>
+      </section>
+    </main>
+    <footer><small>Open-source — CC0</small></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

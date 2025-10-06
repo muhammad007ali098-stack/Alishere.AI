@@ -1,0 +1,8 @@
+.container{max-width:900px;margin:24px auto;font-family:Inter,Arial,Helvetica,sans-serif;padding:12px;}
+header h1{color:#d6336c;margin:0;} .card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,0.06);}
+#chat{height:360px;overflow:auto;border:1px solid #eee;padding:12px;border-radius:8px;background:#fafafa;margin-bottom:8px;}
+.user{color:#b02a57;text-align:right;margin:8px 0;} .ai{color:#0b6;text-align:left;margin:8px 0;}
+input{padding:8px;border-radius:8px;border:1px solid #ddd;margin-right:6px;}
+button{background:#d6336c;color:white;padding:8px;border-radius:8px;border:none;cursor:pointer;}
+.controls{margin-top:8px;display:flex;gap:8px;}
+footer{margin-top:12px;text-align:center;color:#666;}
